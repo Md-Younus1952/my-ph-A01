@@ -24,6 +24,7 @@ header {
     width: 71%;
     max-width: 1600px;
     margin: 0 auto;
+    background-color: #fff;
 
 }
 
@@ -40,13 +41,137 @@ nav .menu {
     align-items: center;
 }
 
+nav .menu a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
 .btn {
     background-color: #10d16a;
     border: none;
     padding: 18px 35px;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: 20px;
     font-weight: bold;
     color: rgba(24, 3, 3, 0.861);
     cursor: pointer;
+}
+
+#banner {
+    margin: 0 auto;
+    background: url("../Assets/hero-bg.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: 23px 38px, bottom right;
+    background-repeat: no-repeat;
+
+    width: 1600px;
+    height: 674px;
+}
+
+#banner .banner-content {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#banner .banner-content p {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 30px;
+    margin-bottom: 30px;
+    background: #000;
+    height: 35px;
+    width: 229px;
+    padding: 8px 12px;
+    gap: 6px;
+    align-items: center;
+}
+
+.section-heading {
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.section-heading h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-heading p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575
+}
+
+
+
+#skills,
+#knowledge {
+    padding-top: 130px;
+}
+
+
+#skills .skills-container .skill-box {
+    display: flex;
+    gap: 24px;
+}
+
+
+
+.skill-box .skill-card {
+    padding: 30px;
+    /* border: 1px solid red; */
+    box-shadow: 0 6px 50px 0 #00000011;
+    max-width: 267px;
+
+}
+
+.skill-card img {
+    max-width: 44px;
+    margin-bottom: 30px;
+    background: #dc4343;
+    text-align: center;
+
+}
+
+
+
+.skill-card h3 {
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skill-card p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+#knowledge .knowledge-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.knowledge-container p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    text-align: left;
+}
+
+.knowledge-container ul {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    padding-top: 40px;
 }
