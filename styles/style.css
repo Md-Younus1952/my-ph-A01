@@ -61,6 +61,11 @@ nav .menu a {
     cursor: pointer;
 }
 
+.btn1 {
+    display: flex;
+    align-items: center;
+}
+
 #banner {
     margin: 0 auto;
     background: url("../Assets/hero-bg.png");
@@ -78,10 +83,11 @@ nav .menu a {
 }
 
 #banner .banner-content p {
-    font-size: 16px;
-    color: #30B868;
+    font-size: 18px;
+    color: #FFFFFF;
     gap: 6px;
     margin-bottom: 16px;
+    font-weight: 400;
 
 }
 
@@ -90,7 +96,7 @@ nav .menu a {
     text-align: center;
     background: #FFFFFF;
     align-items: center;
-    border-radius: 1000px;
+    border-radius: 16px;
 }
 
 #banner .banner-content h1 {
@@ -211,6 +217,10 @@ footer {
 
 .footer-container .social {
     max-width: 562px;
+}
+
+.footer-container .social h3 {
+    color: #FFFFFF;
 }
 
 .footer-container .icons a {
