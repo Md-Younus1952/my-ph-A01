@@ -97,6 +97,8 @@ nav .menu a {
     background: #FFFFFF;
     align-items: center;
     border-radius: 16px;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 #banner .banner-content h1 {
@@ -176,6 +178,7 @@ nav .menu a {
     color: #757575;
     line-height: 28px;
     text-align: center;
+    align-items: center;
 
 }
 
@@ -221,11 +224,18 @@ footer {
 
 .footer-container .social h3 {
     color: #FFFFFF;
+    font-size: 20px;
+    padding-bottom: 16px;
+    align-items: center;
+    text-align: center;
 }
 
 .footer-container .icons a {
-    margin-right: 24px;
-    background: red;
+    padding-top: 16px;
+    margin-right: 14px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
 #footer .copyright {
